@@ -9,4 +9,92 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --background-image: url("../images/cover-image-light.png");
+  --acid-pink: #ffc2e6;
+  --bright-pink: #ff8dcb;
+  --soft-pink: #353430;
+  --black: #353430;
+  --accent-color: var(--bright-pink);
+  background-color: var(--bright-pink);
+}
+
+.theme-light .header__theme-menu-button {
+  color: var(--black);
+}
+
+.theme-light .header__rec {
+  display: none;
+}
+.theme-light .content__block-title {
+  color: var(--black);
+}
+
+.theme-light .header__theme-menu-button_active {
+  border: 1px solid var(--black);
+  pointer-events: none;
+}
+
+.theme-light .header__theme-menu-button:hover {
+  outline: 1px solid color-mix(in srgb, var(--black) 40%, transparent);
+}
+
+.theme-light .header__theme-menu-button:focus-visible {
+  border-bottom: 1px solid var(--black);
+  outline: none;
+}
+
+.theme-light a:hover {
+  border-bottom: 1px solid var(--black);
+}
+
+.theme-light a:focus {
+  outline: 1px solid var(--black);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-image: url("../images/cover-image-light.png");
+    --acid-pink: #ffc2e6;
+    --bright-pink: #ff8dcb;
+    --soft-pink: #353430;
+    --black: #353430;
+    background-color: var(--bright-pink);
+  }
+
+  .header__theme-menu-button {
+    color: var(--black);
+  }
+
+  .header__rec {
+    display: none;
+  }
+  .content__block-title {
+    color: var(--black);
+  }
+
+  .header__theme-menu-button_active {
+    border: 1px solid var(--black);
+    pointer-events: none;
+  }
+
+  .header__theme-menu-button:hover {
+    outline: 1px solid color-mix(in srgb, var(--black) 40%, transparent);
+  }
+
+  .header__theme-menu-button:focus-visible {
+    border-bottom: 1px solid var(--black);
+    outline: none;
+  }
+
+  .text__link {
+    text-shadow: 2px 2px var(--bright-pink);
+  }
+
+  a:hover {
+    border-bottom: 1px solid var(--black);
+  }
+
+  a:focus {
+    outline: 1px solid var(--black);
+  }
 }
