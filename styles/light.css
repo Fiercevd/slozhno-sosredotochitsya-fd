@@ -15,7 +15,6 @@
   --soft-pink: #353430;
   --black: #353430;
   --accent-color: var(--bright-pink);
-  background-color: var(--bright-pink);
 }
 
 .theme-light .header__theme-menu-button {

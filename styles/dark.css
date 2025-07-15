@@ -15,7 +15,6 @@
   --soft-pink: #f1b2ce;
   --black: #000028;
   --accent-color: var(--bright-pink);
-  background-color: var(--bright-pink);
 }
 
 .theme-dark .header__rec {
