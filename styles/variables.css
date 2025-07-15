@@ -1,11 +1,28 @@
 :root {
+  /*
   --acid-pink: #DB00FF;
   --bright-pink: #FF0070;
   --soft-pink: #F1B2CE;
   --black: #000028;
   --accent-color: var(--bright-pink);
-  --subheading-primary-color: var(--black);
-  --text-body-color: var(--soft-pink);
+  */
+  --bg-color: #000028;
+  --borders-color: #FF0070;
+  --decorative-items-color: #FF0070;
+  --header-menu-color: #FF0070;
+  --header-hover-color: #FF007066;
+  --header-focus-color: #FF0070;
+  --hero-color: #DB00FF;
+  --hero-shadow-color: #FF0070;
+  --hero-description-color: #000028;
+  --hero-bg-color: #FF0070;
+  --article-heading-color: #FF0070;
+  --article-subheading-color: #000028;
+  --article-bg-color: #FF0070;
+  --body-text-color: #F1B2CE;
+  --link-shadow-color: #FF0070;
+  --link-hover-color: #F1B2CE;
+  --link-focus-color: #F1B2CE; 
   --background-image: url("../images/cover-image-dark.png");
   --main-font: 'IBM Plex Mono', serif;
   --main-font-weight: 400;

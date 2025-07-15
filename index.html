@@ -1,29 +1,26 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="color-scheme" content="dark light" />
-    <link rel="icon" href="../images/favicon.ico" sizes="any" />
-    <link rel="icon" href="../images/favicon.svg" type="image/svg+xml" />
-    <link rel="apple-touch-icon" href="../images/mobile-icon.png" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark light">
+    <link rel="icon" href="../images/favicon.ico" sizes="any">
+    <link rel="icon" href="../images/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="../images/mobile-icon.png">
 
     <title>Сложно сосредоточиться</title>
     <script src="./scripts/script.js"></script>
-    <link rel="stylesheet" href="./fonts/fonts.css" />
-    <link rel="stylesheet" href="./styles/globals.css" />
-    <link rel="stylesheet" href="./styles/variables.css" />
-    <link rel="stylesheet" href="./styles/color-tokens.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/dark.css" />
-    <link rel="stylesheet" href="./styles/light.css" />
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./styles/globals.css">
+    <link rel="stylesheet" href="./styles/variables.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/dark.css">
+    <link rel="stylesheet" href="./styles/light.css">
   </head>
   <body class="page">
     <header class="header decorated-zone">
-      <div class="header__rec">
-        <span class="rec" aria-hidden="true">rec</span>
-      </div>
+      <span class="header__rec rec" aria-hidden="true">rec</span>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -71,7 +68,7 @@
             важные. Где же легендарная многозадачность, когда она так нужна вам
             (и всем нанимающим менеджерам этого мира)? А дело в том, что её
             просто не существует. Исследователи
-            <span><a class="text__link" href="#">выяснили</a></span
+            <span><a class="text__link" href="https://dana.org/news-and-insights/">выяснили</a></span
             >, что мозгу тяжело концентрироваться даже на двух делах
             одновременно. А когда в поле внимания попадает несколько важных
             задач, организм паникует и выделяет кортизол и адреналин — «гормоны
@@ -142,7 +139,7 @@
             5 простых (на самом деле не очень) советов
           </h3>
           <article class="card">
-            <h4 class="card__subtitle">Представьте небо и облака</h4>
+            <h4 class="card__title card__subtitle">Представьте небо и облака</h4>
             <p class="card__text">
               Или листья в ручье. Тут дело в лёгкой медитации, которая помогает
               успокоиться. Ведь часто именно тревожные мысли о сложных задачах
@@ -155,7 +152,7 @@
             </p>
           </article>
           <article class="card">
-            <h4 class="card__subtitle">Включите музыку</h4>
+            <h4 class="card__title card__subtitle">Включите музыку</h4>
             <p class="card__text">
               Но не любую, и не любимую. Любимая может быть связана с сильными
               положительными эмоциями, которые тоже очень сильно отвлекают.
@@ -164,10 +161,10 @@
             </p>
           </article>
           <article class="card">
-            <h4 class="card__subtitle">Прогуляйтесь</h4>
+            <h4 class="card__title card__subtitle">Прогуляйтесь</h4>
             <p class="card__text">
               Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
-              <span><a href="#" class="text__link">показал</a></span
+              <span><a href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328" class="text__link">показал</a></span
               >, что созерцание природы повышает концентрацию, в то время как
               после просмотра городских пейзажей она наоборот понижается. Можно
               совместить прогулку с физическими упражнениями или бегом — так в
@@ -176,7 +173,7 @@
             </p>
           </article>
           <article class="card">
-            <h4 class="card__subtitle">Хорошо ешьте</h4>
+            <h4 class="card__title card__subtitle">Хорошо ешьте</h4>
             <p class="card__text">
               Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
               которые препятствуют резким скачкам сахара в крови. Например, с
@@ -185,7 +182,7 @@
             </p>
           </article>
           <article class="card">
-            <h4 class="card__subtitle">Читайте</h4>
+            <h4 class="card__title card__subtitle">Читайте</h4>
             <p class="card__text">
               Настоящие бумажные книги. Это правда помогает с концентрацией:
               чтобы прочитать пост в соцсети, достаточно нескольких минут или
@@ -197,38 +194,33 @@
       </section>
       <section class="content__block gallery">
         <h2 class="card__title">А можно в картинках?</h2>
-        <section class="card__gallery">
+        <div class="card__gallery">
           <img
             class="gallery-image image-sunset"
-            src="images\sunset.png"
-            alt="небо и облака"
-            loading="lazy"
-          />
+            src="images/sunset.png"
+            alt="фон с небом и облаками"
+            loading="lazy">
           <img
             class="gallery-image image-ice-cream"
-            src="images\ice-cream.png"
-            alt="миска мороженого, которая может поддержать диалог"
-            loading="lazy"
-          />
+            src="images/ice-cream.png"
+            alt="миска мороженого (иллюстрация для раздела про общение)"
+            loading="lazy">
           <img
             class="gallery-image image-tape"
-            src="images\tape.png"
-            alt="кассета с музыкой"
-            loading="lazy"
-          />
+            src="images/tape.png"
+            alt="музыкальная кассета 80-х годов"
+            loading="lazy">
           <img
             class="gallery-image image-books"
-            src="images\books.png"
-            alt="стопка книг"
-            loading="lazy"
-          />
+            src="images/books.png"
+            alt="стопка книг — символ знаний"
+            loading="lazy">
           <img
             class="gallery-image image-street"
-            src="images\street.png"
-            alt="тихая улочка"
-            loading="lazy"
-          />
-        </section>
+            src="images/street.png"
+            alt="пустая улочка в старом городе"
+            loading="lazy">
+        </div>
       </section>
     </main>
     <footer class="footer decorated-zone">

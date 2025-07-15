@@ -10,41 +10,25 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --background-image: url("../images/cover-image-dark.png");
-  --acid-pink: #db00ff;
-  --bright-pink: #ff0070;
-  --soft-pink: #f1b2ce;
-  --black: #000028;
-  --accent-color: var(--bright-pink);
+  --bg-color: #000028;
+  --borders-color: #FF0070;
+  --decorative-items-color: #FF0070;
+  --header-menu-color: #FF0070;
+  --header-hover-color: #FF007066;
+  --header-focus-color: #FF0070;
+  --hero-color: #DB00FF;
+  --hero-shadow-color: #FF0070;
+  --hero-description-color: #000028;
+  --hero-bg-color: #FF0070;
+  --article-heading-color: #FF0070;
+  --article-subheading-color: #000028;
+  --article-bg-color: #FF0070;
+  --body-text-color: #F1B2CE;
+  --link-shadow-color: #FF0070;
+  --link-hover-color: #F1B2CE;
+  --link-focus-color: #F1B2CE; 
 }
 
 .theme-dark .header__rec {
-  display: inline;
-}
-
-.theme-dark .header__theme-menu-button {
-  color: var(--accent-color);
-}
-
-.theme-dark .content__block-title {
-  color: var(--accent-color);
-}
-
-.theme-dark .header__theme-menu-button_active {
-  border: 1px solid var(--accent-color);
-}
-
-.theme-dark .header__theme-menu-button:hover {
-  outline: 1px solid color-mix(in srgb, var(--accent-color) 40%, transparent);
-}
-
-.theme-dark .header__theme-menu-button:focus-visible {
-  border-bottom: 1px solid var(--accent-color);
-}
-
-.theme-dark a:hover {
-  border-bottom: 1px solid var(--soft-pink);
-}
-
-.theme-dark a:focus {
-  outline: 1px solid var(--soft-pink);
-}
+    display: inline;
+  }
