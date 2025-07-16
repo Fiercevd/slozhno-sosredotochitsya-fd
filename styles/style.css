@@ -1,6 +1,6 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 :root {
-  --bg-color: 000028;
+  --bg-color: #000028;
   --background-image: url("../images/cover-image-dark.png");
   font-family: var(--main-font);
 }
@@ -213,17 +213,18 @@
 }
 
 .footer.decorated-zone::before {
-  bottom: 10px;
+  bottom: 20px;
   left: 10px;
 }
 
 .footer.decorated-zone::after {
-  top: 10px;
+  top: 2px;
   right: 10px;
 }
 
 .hero-text-footer {
   text-shadow: 2px 2px 0 var(--hero-shadow-color);
+  transform: translateY(-6px);
 }
 
 
