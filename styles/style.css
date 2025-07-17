@@ -207,24 +207,13 @@
   display: grid;
   justify-content: center;
   align-content: center;
-  margin-block-start: 48px;
+  margin-block-start: 40px;
   block-size: 100vh;
   min-height: 668px;
 }
 
-.footer.decorated-zone::before {
-  bottom: 20px;
-  left: 10px;
-}
-
-.footer.decorated-zone::after {
-  top: 2px;
-  right: 10px;
-}
-
 .hero-text-footer {
   text-shadow: 2px 2px 0 var(--hero-shadow-color);
-  transform: translateY(-6px);
 }
 
 
